@@ -11,6 +11,6 @@ docker run \
     -p 8600:8600/udp \
     --name=consul \
     --hostname=consul \
-    consul agent -dev -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
+    consul:1.8 agent -dev -ui -node=server-1 -bootstrap-expect=1 -client=0.0.0.0
 
 ##############################################################
