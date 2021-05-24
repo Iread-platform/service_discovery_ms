@@ -1,0 +1,17 @@
+
+##############################################################
+#############    cAdvisor monitoring tool    #################
+##############################################################
+
+##pull cAdvisor docker image and run container from it:
+
+  chmod +x cAdvisor.sh
+  ./cAdvisor.sh
+
+
+##Web user inteface for cAdvisor:
+
+  http://localhost:8080
+
+
+##############################################################
